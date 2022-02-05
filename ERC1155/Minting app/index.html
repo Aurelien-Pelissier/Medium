@@ -1,0 +1,83 @@
+
+<head>
+  <!--Head Content-->
+ <title>MINT NFT</title>
+ <!-- Required meta tags -->
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Import the Bootstrap stylesheet -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+</head>
+
+<body>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h1>Mint NFT</h1>
+      <hr>
+      <div class="mb-3">
+        <div class="form-group">
+        </div>
+          <div>  
+            <button class="btn btn-primary" id="btn-login" onclick="login();">Connect MetaMask</button>
+          </div>
+      </div>
+      <div class="input-group mb-3" id="resultSpaceLogin">
+      </div>
+
+      <hr>
+      <h3>ERC721</h3>
+      <div class="mb-3">      
+        <div class="form-group">
+          <div class="input-group mb-3">
+            <input disabled = "true" id="name721" type="text" class="form-control" placeholder="NFT Name" aria-label="URL" aria-describedby="basic-addon1">
+          </div>
+          <div class="input-group mb-3">
+            <input disabled = "true" id="description721" type="text" class="form-control" placeholder="Description" aria-label="URL" aria-describedby="basic-addon1">
+          </div>
+          <div class="input-group mb-3">
+            <input type="file" disabled = "true" id="file721">
+          </div>
+        </div>
+        <div>  
+          <button disabled = "true" class="btn btn-primary" id="upload721" onclick="upload721();">Upload and Mint</button>
+        </div>
+      </div>
+      <div class="input-group mb-3" id="resultSpaceERC721">
+      </div>
+        <hr>
+
+        <h3>ERC1155</h3>
+        <div class="mb-3">      
+          <div class="form-group">
+            <div class="input-group mb-3">
+              <input disabled = "true" id="name1155" type="text" class="form-control" placeholder="NFT Name" aria-label="URL" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group mb-3">
+              <input disabled = "true" id="description1155" type="text" class="form-control" placeholder="Description" aria-label="URL" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group mb-3">
+              <input disabled = "true" id="amount1155" type="text" class="form-control" placeholder="Amount" aria-label="URL" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group mb-3">
+              <input type="file" disabled = "true" id="file1155">
+            </div>
+          </div>
+          <div>  
+            <button disabled = "true" class="btn btn-primary" id="upload1155" onclick="upload1155();">Upload and Mint</button>
+          </div>
+        </div>
+        <div class="input-group mb-3" id="resultSpaceERC1155">
+        </div>
+          <hr>
+      </div>  
+    </div>
+  </div>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+  <script src="https://unpkg.com/moralis/dist/moralis.js"></script>
+  <script src="static/logic.js"></script>
