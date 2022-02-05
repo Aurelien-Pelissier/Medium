@@ -1,6 +1,6 @@
 # Density estimation for bounded variables
 
-This is the github supporting the medium article:
+This repository contains the code to support the medium article:
 
 https://medium.com/@Aurelien-Pelissier/density-estimation-for-bounded-variables-7d68f633e772.
 
