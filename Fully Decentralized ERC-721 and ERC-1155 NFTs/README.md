@@ -7,8 +7,10 @@ https://medium.com/@Aurelien-Pelissier/fully-decentralized-erc-721-and-erc-1155-
 This app relies on a Moralis server. It is pretty eqcy to setup:
    1) Follow the instructions to setup a [free Moralis server](https://docs.moralis.io/guides/build-a-simple-dapp-in-3-minutes)
    2) Copy the server URL and appID into the `static/logic.js` file
+
     const serverUrl = "";
     const appId = "";
+    
    3) Enjoy
 
 <p align="center">
