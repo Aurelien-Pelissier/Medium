@@ -1,6 +1,6 @@
 # Fully Decentralized ERC-721 and ERC-1155 NFTs
 
-This repository contains the code to support the medium article:
+This repository contains the code supporting the medium article:
 
 https://medium.com/@Aurelien-Pelissier/fully-decentralized-erc-721-and-erc-1155-nfts-6c229adf9c9b.
 
