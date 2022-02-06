@@ -11,7 +11,7 @@ This app relies on a Moralis server. You need to setup one to use the app:
     const serverUrl = "";
     const appId = "";
     
-   3) Deploy
+   3) Deploy & enjoy !
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Aurelien-Pelissier/Medium/master/Fully%20Decentralized%20ERC-721%20and%20ERC-1155%20NFTs/Figure1.png" width=500>
