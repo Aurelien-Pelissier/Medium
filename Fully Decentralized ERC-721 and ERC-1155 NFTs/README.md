@@ -2,11 +2,11 @@
 
 This repository contains the code supporting the medium article:
 
-https://medium.com/@Aurelien-Pelissier/fully-decentralized-erc-721-and-erc-1155-nfts-6c229adf9c9b.
+https://aurelien-pelissier.medium.com/fully-decentralized-erc-721-and-erc-1155-nfts-6c229adf9c9b.
 
 This app relies on a Moralis server. You need to setup one to use the app:
-   1) Follow the instructions to setup a [free Moralis server](https://docs.moralis.io/guides/build-a-simple-dapp-in-3-minutes)
-   2) Copy the server URL and appID into the `static/logic.js` file
+   1) Follow the instructions to setup a [free Moralis server](https://docs.moralis.io/guides/build-a-simple-dapp-in-3-minutes),
+   2) Copy the server URL and appID into the `static/logic.js` file,
 
     const serverUrl = "";
     const appId = "";
