@@ -1,4 +1,4 @@
-# Density estimation for bounded variables
+# Arbitrarily distributed on-chain random variables
 
 This repository contains the code supporting the medium article:
 
