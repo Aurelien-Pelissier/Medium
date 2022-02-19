@@ -2,7 +2,7 @@
 
 This repository contains the code supporting the medium article:
 
-https://medium.com/@Aurelien-Pelissier/density-estimation-for-bounded-variables-7d68f633e772.
+https://aurelien-pelissier.medium.com/arbitrarily-distributed-on-chain-random-numbers-9a3f54656fd.
 
 You can launch `Plot_distributions.py` to visualize the distributions discussed in the article
 
