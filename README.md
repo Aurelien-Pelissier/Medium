@@ -10,4 +10,4 @@ This repository contains the code related to my medium articles. Click on the on
 
 ### Physics
 - [Understanding Entropy and the second law of thermodynamics](Understanding%20entropy%20and%20the%20second%20law%20of%20thermodynamics)
-- [Symmetry between the early and later universe, a look at the scale factor](Symmetry%20between%20the%20early%20and%20later%20universe)
+- [Symmetry between the early and later universe, a look at the scale factor](Symmetry%20between%20the%20early%20and%20later%20universe%2C%20a%20look%20at%20the%20scale%20factor)
