@@ -1,4 +1,4 @@
-# Fully Decentralized ERC-721 and ERC-1155 NFTs
+# Symmetry between the early and later universe, a look at the scale factor
 
 This repository contains the code supporting the medium article:
 
