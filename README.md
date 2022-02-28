@@ -1,5 +1,5 @@
 # A Repository for Medium Articles
-This repository contains the code related to my [medium articles](https://aurelien-pelissier.medium.com/). Click on the one you want to access.
+This repository contains all the code used for my [medium articles](https://aurelien-pelissier.medium.com/). Click on the one you want to access.
 
 ### Machine learning & Data science
 - [Density Estimation for Bounded Variables: The transformation trick](Density%20estimation%20for%20bounded%20variables)
