@@ -3,7 +3,7 @@ This repository contains all the code used for my [medium articles](https://aure
 
 ### Machine learning & Data science
 - [Density Estimation for Bounded Variables: The transformation trick](Density%20estimation%20for%20bounded%20variables)
-- How to show that two processes are equivalent - The equivalence test [COMMING SOON]
+- How to show that two processes are equivalent ? - The equivalence test [COMMING SOON]
 
 ### Blockchain & smart contracts
 - [Fully decentralized ERC-721 and ERC-1155 NFTs: How to store IPFS metadata with solidity?](Fully%20Decentralized%20ERC-721%20and%20ERC-1155%20NFTs)
