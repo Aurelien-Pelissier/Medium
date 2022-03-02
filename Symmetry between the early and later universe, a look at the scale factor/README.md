@@ -15,5 +15,5 @@ You can perform simulation of the universe expansion by launching `Universe_Frie
 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Aurelien-Pelissier/Medium/master/Symmetry%20between%20the%20early%20and%20later%20universe,%20a%20look%20at%20the%20scale%20factor/Universe_timeline.png" width=1000>
+  <img src="https://raw.githubusercontent.com/Aurelien-Pelissier/Medium/master/Symmetry%20between%20the%20early%20and%20later%20universe,%20a%20look%20at%20the%20scale%20factor/Universe_timeline.png" width=1200>
 </p>
