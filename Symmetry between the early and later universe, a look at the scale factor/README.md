@@ -6,6 +6,7 @@ Article 1
 Article 2
 
 The timeline of the universe is available in both `.png` and `.ppt` format.
+
 You can perform simulation of the universe expansion by launching `Universe_Friedman.py`
 
 <p align="center">
