@@ -1,4 +1,4 @@
-# Symmetry between the early and later universe, a look at the scale factor
+# Rewinding the Universe to the Beginning of Time
 
 This repository contains the code and ressources supporting the medium articles:
 
@@ -10,10 +10,10 @@ The timeline of the universe is available in both `.png` and `.ppt` format.
 You can perform simulation of the universe expansion by launching `Universe_Friedman.py`
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Aurelien-Pelissier/Medium/master/Symmetry%20between%20the%20early%20and%20later%20universe,%20a%20look%20at%20the%20scale%20factor/Figure1.png" width=600>
+  <img src="https://raw.githubusercontent.com/Aurelien-Pelissier/Medium/master/Rewinding%20the%20Universe%20to%20the%20Beginning%20of%20Time/Figure1.png" width=600>
 </p>
 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Aurelien-Pelissier/Medium/master/Symmetry%20between%20the%20early%20and%20later%20universe,%20a%20look%20at%20the%20scale%20factor/Universe_timeline.png" width=1200>
+  <img src="https://raw.githubusercontent.com/Aurelien-Pelissier/Medium/master/Rewinding%20the%20Universe%20to%20the%20Beginning%20of%20Time/Universe_timeline.png" width=1200>
 </p>
