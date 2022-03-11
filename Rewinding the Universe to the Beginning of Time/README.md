@@ -10,7 +10,7 @@ The timeline of the universe is available in both `.png` and `.ppt` format.
 You can perform the full simulation of the universe expansion by launching `Code/simulate_universe_with_inflation.py`
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Aurelien-Pelissier/Medium/master/Rewinding%20the%20Universe%20to%20the%20Beginning%20of%20Time/Figure1.png" width=600>
+  <img src="https://raw.githubusercontent.com/Aurelien-Pelissier/Medium/master/Rewinding%20the%20Universe%20to%20the%20Beginning%20of%20Time/Figure1.png" width=1000>
 </p>
 
 
