@@ -2,7 +2,7 @@
 
 This repository contains the code and ressources supporting the medium articles:
 
-- [Rewinding the Universe to the Beginning of Time](https://aurelien-pelissier.medium.com/rewinding-the-universe-to-the-beginning-of-time-b98c82e6a606)  
+- [Rewinding the Universe to the Beginning of Time](https://medium.com/cantors-paradise/rewinding-the-universe-to-the-beginning-of-time-58d261022112)  
 - [The Timeline of our Universe](https://aurelien-pelissier.medium.com/the-timeline-of-our-universe-7fd01d8ee221)
 
 The timeline of the universe is available in both `.png` and `.ppt` format.
