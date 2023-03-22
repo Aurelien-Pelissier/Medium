@@ -5,6 +5,9 @@ This repository contains all the code used for my [medium articles](https://aure
 - [Density Estimation for Bounded Variables: The transformation trick](Density%20estimation%20for%20bounded%20variables)
 - The equivalence statistical test -  How to show that two processes are equivalent ? [COMMING SOON]
 
+### Quantum Programming
+- Crack Bitcoin and Your Credit card With Quantum Programming [COMMING SOON]
+
 ### Blockchain & smart contracts
 - [Fully decentralized ERC-721 and ERC-1155 NFTs: How to store IPFS metadata with solidity?](Fully%20Decentralized%20ERC-721%20and%20ERC-1155%20NFTs)
 - [Arbitrarily distributed on-chain random variables: a solidity tutorial with chainlink VRF](Arbitrarily%20distributed%20on-chain%20random%20variables)
