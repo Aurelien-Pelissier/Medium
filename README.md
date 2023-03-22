@@ -6,7 +6,7 @@ This repository contains all the code used for my [medium articles](https://aure
 - The equivalence statistical test -  How to show that two processes are equivalent ? [COMMING SOON]
 
 ### Quantum Programming
-- Crack Bitcoin and Your Credit card With Quantum Programming [COMMING SOON]
+- [Crack Bitcoin and Your Credit card With Quantum Programming](https://github.com/Aurelien-Pelissier/Medium/tree/main/Quantum%20Programming)
 
 ### Blockchain & smart contracts
 - [Fully decentralized ERC-721 and ERC-1155 NFTs: How to store IPFS metadata with solidity?](Fully%20Decentralized%20ERC-721%20and%20ERC-1155%20NFTs)
