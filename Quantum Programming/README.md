@@ -1,7 +1,7 @@
 <img src="https://raw.githubusercontent.com/Aurelien-Pelissier/IBMQ-Quantum-Computing/master/img/qiskit-heading.gif" width=300>
 
 
-# Quantum Computing
+# Quantum Programming
 
 <img align="right" src="https://raw.githubusercontent.com/Aurelien-Pelissier/IBMQ-Quantum-Computing/master/img/Complexity.jpg" width=450>
 During the past decade, considerable progress has been achieved regarding the development of quantum computers, and a breakthrough in this field will have massive application particularily in research, cryptography and logistic. Google and IBM recently claimed the creation of a 72 and 50 qubit quantum chips respectively, making the possibility for a potential imminent quantum supremacy even more likely. [1]
