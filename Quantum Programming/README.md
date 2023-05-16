@@ -4,6 +4,8 @@
 
 #### [The Ultimate Hack: Crack your Credit Card with Quantum Programming](https://medium.com/p/17ddd045eba6/edit)
 
+&nbsp;
+
 
 # Quantum Programming
 
@@ -31,8 +33,6 @@ For example, the Hadamard gate, H, performs the following operartion:
 
 
 
-
-&nbsp;
 
 &nbsp;
 
