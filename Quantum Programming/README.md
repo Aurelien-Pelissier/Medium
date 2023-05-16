@@ -119,7 +119,7 @@ def Check(N):
 
 &nbsp;
 
-#### Classical part
+### Classical part
 
 With some Arithmetic, Group theory, Euler's Theorem and Bézout's identity, it is possible to reduce the factorization problem into a period finding problem of the modular exponential function (see [this page](https://en.wikipedia.org/wiki/Shor%27s_algorithm) for more details). The classical part of the algorithm is implemented as follow:
 
@@ -176,7 +176,7 @@ The implementation of controlled *Ua* are relatively complex [4], and the "right
 
 &nbsp;
 
-#### Factoring *N*=35
+### Factoring *N*=35
 
 As a concrete example, we run the Shor's algorithm *N* = 35 and *a* = 2, measure the output of the quantum circuit and try to infer *r* from the denominator of the fraction 1000 times (the source code is in `src/Shor_factoring`). When *r* is found to not be the period, we also check for multiple of 2 and 3 of *r*. Then, we recover non-trivail factors of *N* with the relationship *p* = gcd(*a*^(*r*/2)-1, *N*) and *q* = gcd(*a*^(*r*/2)+1, *N*).
 In our case, as seen on the figure below, we find the correct period 60% of the time (*r* = 12). from which we recover *p* = gcd(63,35) = 7 and *q* = gcd(65,35) = 5.
