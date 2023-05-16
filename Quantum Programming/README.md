@@ -4,7 +4,7 @@
 # Quantum Programming
 
 <img align="right" src="https://raw.githubusercontent.com/Aurelien-Pelissier/IBMQ-Quantum-Computing/master/img/Complexity.jpg" width=450>
-During the past decade, considerable progress has been achieved regarding the development of quantum computers, and a breakthrough in this field will have massive application particularily in research, cryptography and logistic. Google and IBM recently claimed the creation of a 72 and 50 qubit quantum chips respectively, making the possibility for a potential imminent quantum supremacy even more likely. [1]
+During the past decade, considerable progress has been achieved regarding the development of quantum computers, and a breakthrough in this field will have massive application particularily in research, cryptography and logistic. Google and IBM recently claimed the creation of a 72 and 50 qubit quantum chips respectively, making the possibility for a potential imminent quantum supremacy even more likely [1].
 
 
 &nbsp;
@@ -12,7 +12,8 @@ During the past decade, considerable progress has been achieved regarding the de
 In May 2016, IBM launched Quantum Experience (QX), which enables anyone to easily connect to its 5qubit quantum processors via the IBM Cloud. (https://www.research.ibm.com/ibm-q/). Along with it's platform, IBM also developped `QISKit`, a Python library for the Quantum Experience API, where users can more easily apply quantum gates to run complex quantum algorithms and experiments.  
 
 
-This repository is an introdution to quantum computing and contains the source code to run simples quantum algorithms. They are implemented with the python library `QISKit`, that can be easily installed with the command `$ pip install qiskit` (`Python 3.5` is required). More information is available at https://qiskit.org/.
+This repository is a `QISKit` general implementation of the Shor's algorithm. It can be easily installed with the command `$ pip install qiskit`. More information is available at https://qiskit.org/.
+This article contains the source code to go with the Medium article: The Ultimate Hack: Crack your Credit Card with Quantum Programming.
 
 
 &nbsp;
@@ -24,38 +25,6 @@ In analogy with the classical gates NOT, AND, OR, ... that are the building bloc
 
 For example, the Hadamard gate, H, performs the following operartion:
 <img align="left" src="https://raw.githubusercontent.com/Aurelien-Pelissier/IBMQ-Quantum-Computing/master/img/hadamar.png" width=550>
-
-
-
-&nbsp;
-
-&nbsp;
-
-
-### Creating and measuring a Bell state
-The following code, available in the `src` folder, create a Bell state and measure it 1000 times. 
-
-<img src="https://raw.githubusercontent.com/Aurelien-Pelissier/IBMQ-Quantum-Computing/master/img/Bell.png" width=180>
-
-```python
-from qiskit import QuantumProgram
-
-qp = QuantumProgram()
-qr = qp.create_quantum_register('qr',2)      #Initialize 2 qubits to perform operations
-cr = qp.create_classical_register('qc',2)    #Initialize 2 classical bits to store the measurements
-qc = qp.create_circuit('Bell',[qr],[cr])
-qc.h(qr[0])                                  #Apply Hadamar gate
-qc.cx(qr[0], qr[1])                          #Apply CNOT gate
-qc.measure(qr[0], cr[0])                     #Measure qubit 0 and store the result in bit 0
-qc.measure(qr[1], cr[1])                     #Measure qubit 1 and store the result in bit 1
-
-result = qp.execute('Bell', shots=1000)      #Compile and run the Quantum Program 1000 times
-print(result.get_counts('Bell'))
-```
-A possible result that we get is
-```python
-{'11': 494, '00': 506}
-```
 
 
 
@@ -158,39 +127,17 @@ We want to find *r* the period of the modular exponentiation function <img src="
 <img src="https://raw.githubusercontent.com/Aurelien-Pelissier/IBMQ-Quantum-Computing/master/img/Shor.png" width=800>
 
 The quantum gate *Ua* refers to the unitary operator that perform the modular exponentiation function *x → a^x (modN)*.
-The implementation of controlled *Ua* as well as the inverse QFT gate are relatively complex [4,5], and the "right" gate set to use is currently still an open question (plus it also depends the architecture used for the quantum computer).
-Details about how and why this algorithm works can be found in the [IBM User Guide](https://quantumexperience.ng.bluemix.net/proxy/tutorial/full-user-guide/004-Quantum_Algorithms/110-Shor's_algorithm.html).
+The implementation of controlled *Ua* as well as the inverse QFT gate are relatively complex [4,5], and the "right" gate set to use is currently still an open question (plus it also depends the architecture used for the quantum computer). While not optimal, Beauregard [8] gave a practical implementation for a general *Ua* that is entirely general.
 
 
 &nbsp;
 
-#### Simplified implementation
+#### Factoring *N*=35
 
-Because the implementation of controlled modular exponentiation and inverse QFT are too difficult in the general case, only a particular case is implemented as a proof of concept, and the period finding subroutne is coded for *N=15* and *a* = 7. The non controlled gate *U7* can be implemented as follow [4]:
+As a concrete example, we run the Shor's algorithm, measure the output of the quantum circuit and try to infer r from the denominator of the fraction 1000 times (the source code is in `src/Shor_simplified`). When r is found to not be the period, we also check for multiple of 2 and 3 of r. Then, we recover non-trivail factors of *N* with the relationship p = gcd(a^(r/2)-1, N) and q = gcd(a^(r/2)+1, N).
+In the specific case of N = 35 and a = 2, we find the correct period 60% of the time (r = 12). from which we recover p = gcd(63,35) = 7 and q = gcd(65,35) = 5.
 
-<img src="https://raw.githubusercontent.com/Aurelien-Pelissier/IBMQ-Quantum-Computing/master/img/modulation.png" width=500>
-
-The simplified subroutine is then carried on by successively applying modular exponentiation until the period is found:
-
-* Pick a ransom number *s* between 1 and N-1
-* Decompose *s* into binary units and store *s* in the input register
-* Apply the modular exponentiation gate successively until the output match with *s*
-* The period *r* is the number of time *Ua* has been applied
-
-``` python
-Statrting at 
-      s = 3 = [True True False False False]
-        "11000"
-        "01000"
-        "10000"
-        "01100"
-        "11000"
-
-      Found period r = 4
- ```
-
-Although this implementation does not use the properties of quantum computers to find *r* in polynomial time, it is a proof of concept of the modular exponentiation quantum implementation. The code can be found in `src/Shor_simplified`.
-
+<img src="https://raw.githubusercontent.com/Aurelien-Pelissier/IBMQ-Quantum-Computing/master/img/Shor35.png" width=500>
 
 
 
