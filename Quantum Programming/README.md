@@ -136,14 +136,14 @@ We want to find *r* the period of the modular exponentiation function <img src="
 <img src="https://raw.githubusercontent.com/Aurelien-Pelissier/Medium/master/Quantum%20Programming/img/Shor.png" width=800>
 
 The quantum gate *Ua* refers to the unitary operator that perform the modular exponentiation function *x → a^x (modN)*.
-The implementation of controlled *Ua* as well as the inverse QFT gate are relatively complex [4,5], and the "right" gate set to use is currently still an open question (plus it also depends the architecture used for the quantum computer). While not optimal, Beauregard [8] gave a practical implementation for a general *Ua* that is entirely general.
+The implementation of controlled *Ua* are relatively complex [4], and the "right" gate set to use is currently still an open question (plus it also depends the architecture used for the quantum computer). While not optimal, Beauregard [5] gave a practical implementation for a general *Ua* that is entirely general.
 
 
 &nbsp;
 
 #### Factoring *N*=35
 
-As a concrete example, we run the Shor's algorithm *N* = 35 and *a* = 2, measure the output of the quantum circuit and try to infer *r* from the denominator of the fraction 1000 times (the source code is in `src/Shor_simplified`). When *r* is found to not be the period, we also check for multiple of 2 and 3 of *r*. Then, we recover non-trivail factors of *N* with the relationship *p* = gcd(*a*^(*r*/2)-1, *N*) and *q* = gcd(*a*^(*r*/2)+1, *N*).
+As a concrete example, we run the Shor's algorithm *N* = 35 and *a* = 2, measure the output of the quantum circuit and try to infer *r* from the denominator of the fraction 1000 times (the source code is in `src/Shor_factoring`). When *r* is found to not be the period, we also check for multiple of 2 and 3 of *r*. Then, we recover non-trivail factors of *N* with the relationship *p* = gcd(*a*^(*r*/2)-1, *N*) and *q* = gcd(*a*^(*r*/2)+1, *N*).
 In our case, as seen on the figure below, we find the correct period 60% of the time (*r* = 12). from which we recover *p* = gcd(63,35) = 7 and *q* = gcd(65,35) = 5.
 
 <img src="https://raw.githubusercontent.com/Aurelien-Pelissier/Medium/master/Quantum%20Programming/img/Shor35.png" width=900>
@@ -166,4 +166,4 @@ In our case, as seen on the figure below, we find the correct period 60% of the 
 [4]: Markov, I. L., & Saeedi, M. (2012). Constant-optimized quantum circuits for modular multiplication and exponentiation. arXiv preprint arXiv:1202.6614. [https://arxiv.org/abs/1202.6614]
 
 
-[5]: Draper, T. G. (2000). Addition on a quantum computer. arXiv preprint quant-ph/0008033. [https://arxiv.org/abs/quant-ph/0008033}
+[5]: Beauregard, Stephane. "Circuit for Shor's algorithm using 2n+ 3 qubits." arXiv preprint quant-ph/0205095 (2002). [https://arxiv.org/abs/quant-ph/0205095]
