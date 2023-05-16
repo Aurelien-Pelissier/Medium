@@ -1,6 +1,7 @@
 <img src="https://raw.githubusercontent.com/Aurelien-Pelissier/Medium/master/Quantum%20Programming/img/qiskit-heading.gif" width=300>
 
-This repository supports the Medium article: [The Ultimate Hack: Crack your Credit Card with Quantum Programming](https://medium.com/p/17ddd045eba6/edit).
+This repository supports the Medium article
+[The Ultimate Hack: Crack your Credit Card with Quantum Programming](https://medium.com/p/17ddd045eba6/edit)
 
 
 # Quantum Programming
