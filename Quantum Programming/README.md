@@ -36,6 +36,10 @@ For example, the Hadamard gate, H, performs the following operartion:
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
 
 ## Shor's Algorithm
 
