@@ -2,8 +2,6 @@
 
 This repository supports the Medium article
 
-&nbsp;
-
 [The Ultimate Hack: Crack your Credit Card with Quantum Programming](https://medium.com/p/17ddd045eba6/edit)
 
 
