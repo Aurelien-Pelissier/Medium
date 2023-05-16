@@ -76,14 +76,14 @@ A possible result that we get is
 &nbsp;
 
 
-## Shor's Algorithm
+# Shor's Algorithm
 
 The [Shor's algorithm](https://en.wikipedia.org/wiki/Shor%27s_algorithm), proposed by Peter Shor in 1995 [2], is today one of the most famous quantum algorithm; it is considerably significant because, while the security of our online transactions rests on the assumption that factoring integers with a thousand or more digits is practically impossible, the algorithm enables to find 2 factors of a number in polynomial time with its number of digits. Shor's algorithm was first experimentally demonstrated in 2001 by a group at IBM, which factored 15 into 3 and 5, using a quantum computer of 7 qubits [3].  
 
 
 &nbsp;
 
-### Complexity of factoring
+## Complexity of factoring
 
 <img align="right" src="https://raw.githubusercontent.com/Aurelien-Pelissier/Medium/master/Quantum%20Programming/img/complexity.png" width=510>
 Let N be the number to be factorized, and d~log2(N) its number of digit. The most efficient classical factoring algorithm currently known is the [General number field sieve](https://en.wikipedia.org/wiki/General_number_field_sieve), which has an exponential asymptotic runtime to the number of digits : O(exp(d^1/3)). On the other hand, Shor’s factoring algorithm has an asymptotic runtime polynomial in d : O(d^3). 
@@ -93,7 +93,7 @@ This remarquable difference between polynomial and exponential runtime scaling c
 
 &nbsp;
 
-### The Algorithm
+## The Algorithm
 
 We want to find two factors *p1* and *p2* that divide *N*. Before diving into the algorithm, we have to make sure that:  
 * N is odd (if it's even, then 2 is a trivial factor)
