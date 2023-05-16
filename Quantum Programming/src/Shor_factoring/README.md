@@ -4,7 +4,7 @@
 
 ### [The Ultimate Hack: Crack your Credit Card with Quantum Programming](https://medium.com/p/17ddd045eba6/edit)
 
-The code in this repository is inspired from he Qiskit implementation of [Tiago Leão](https://github.com/ttlion/ShorAlgQiskit).
+The code in this repository is inspired from the Qiskit implementation of [Tiago Leão](https://github.com/ttlion/ShorAlgQiskit).
 
 &nbsp;
 
