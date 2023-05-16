@@ -1,9 +1,9 @@
-<img src="https://raw.githubusercontent.com/Aurelien-Pelissier/IBMQ-Quantum-Computing/master/img/qiskit-heading.gif" width=300>
+<img src="https://raw.githubusercontent.com/Aurelien-Pelissier/Medium/master/Quantum%20Programming/img/qiskit-heading.gif" width=300>
 
 
 # Quantum Programming
 
-<img align="right" src="https://raw.githubusercontent.com/Aurelien-Pelissier/IBMQ-Quantum-Computing/master/img/Complexity.jpg" width=450>
+<img align="right" src="https://raw.githubusercontent.com/Aurelien-Pelissier/Medium/master/Quantum%20Programming/img/Complexity.jpg" width=450>
 During the past decade, considerable progress has been achieved regarding the development of quantum computers, and a breakthrough in this field will have massive application particularily in research, cryptography and logistic. Google and IBM recently claimed the creation of a 72 and 50 qubit quantum chips respectively, making the possibility for a potential imminent quantum supremacy even more likely [1].
 
 
@@ -20,11 +20,11 @@ This article contains the source code to go with the Medium article: The Ultimat
 
 ## Quantum Gates
 
-<img align="left" src="https://raw.githubusercontent.com/Aurelien-Pelissier/IBMQ-Quantum-Computing/master/img/gate.png" width=170>
+<img align="left" src="https://raw.githubusercontent.com/Aurelien-Pelissier/Medium/master/Quantum%20Programming/img/gate.png" width=170>
 In analogy with the classical gates NOT, AND, OR, ... that are the building blocks for classical circuits, there are quantum gates that perform basic operations on qubits. The most common quantum gates are summarized here --> https://en.wikipedia.org/wiki/Quantum_logic_gate. 
 
 For example, the Hadamard gate, H, performs the following operartion:
-<img align="left" src="https://raw.githubusercontent.com/Aurelien-Pelissier/IBMQ-Quantum-Computing/master/img/hadamar.png" width=550>
+<img align="left" src="https://raw.githubusercontent.com/Aurelien-Pelissier/Medium/master/Quantum%20Programming/img/hadamar.png" width=550>
 
 
 
@@ -41,7 +41,7 @@ The [Shor's algorithm](https://en.wikipedia.org/wiki/Shor%27s_algorithm), propos
 
 ### Complexity of factoring
 
-<img align="right" src="https://raw.githubusercontent.com/Aurelien-Pelissier/IBMQ-Quantum-Computing/master/img/complexity.png" width=510>
+<img align="right" src="https://raw.githubusercontent.com/Aurelien-Pelissier/Medium/master/Quantum%20Programming/img/complexity.png" width=510>
 Let N be the number to be factorized, and d~log2(N) its number of digit. The most efficient classical factoring algorithm currently known is the [General number field sieve](https://en.wikipedia.org/wiki/General_number_field_sieve), which has an exponential asymptotic runtime to the number of digits : O(exp(d^1/3)). On the other hand, Shor’s factoring algorithm has an asymptotic runtime polynomial in d : O(d^3). 
 
 This remarquable difference between polynomial and exponential runtime scaling currently places the Factoring problem into the [BQP\P](https://en.wikipedia.org/wiki/BQP) decision class (cf. figure in introduction).
@@ -112,7 +112,7 @@ def Shor(N):
 &nbsp;
 
 ### Period finding quantum subroutine
-We want to find *r* the period of the modular exponentiation function <img src="https://raw.githubusercontent.com/Aurelien-Pelissier/IBMQ-Quantum-Computing/master/img/modular.png" width=128>, which is the smallest positive integer for which <img src="https://raw.githubusercontent.com/Aurelien-Pelissier/IBMQ-Quantum-Computing/master/img/period.png" width=123>. Given the numbers *N* and *a*, the period finding subroutine of the modular exponentiation function proposed by Shor proceed as follow:
+We want to find *r* the period of the modular exponentiation function <img src="https://raw.githubusercontent.com/Aurelien-Pelissier/Medium/master/Quantum%20Programming/img/modular.png" width=128>, which is the smallest positive integer for which <img src="https://raw.githubusercontent.com/Aurelien-Pelissier/Medium/master/Quantum%20Programming/img/period.png" width=123>. Given the numbers *N* and *a*, the period finding subroutine of the modular exponentiation function proposed by Shor proceed as follow:
 
 * Initialize *n0* qubit and store *N* in the input register (*n0* ~ log2(*N*) )
 * Initialize *n* qubit for the output register (where 2^*n* ~ *N*^2 => *n* ~ 2*n0*)
@@ -124,7 +124,7 @@ We want to find *r* the period of the modular exponentiation function <img src="
 * Check if *r* is a period, if not, check multiples of *r*
 * If period not found, try again from the beginning
 
-<img src="https://raw.githubusercontent.com/Aurelien-Pelissier/IBMQ-Quantum-Computing/master/img/Shor.png" width=800>
+<img src="https://raw.githubusercontent.com/Aurelien-Pelissier/Medium/master/Quantum%20Programming/img/Shor.png" width=800>
 
 The quantum gate *Ua* refers to the unitary operator that perform the modular exponentiation function *x → a^x (modN)*.
 The implementation of controlled *Ua* as well as the inverse QFT gate are relatively complex [4,5], and the "right" gate set to use is currently still an open question (plus it also depends the architecture used for the quantum computer). While not optimal, Beauregard [8] gave a practical implementation for a general *Ua* that is entirely general.
@@ -137,7 +137,7 @@ The implementation of controlled *Ua* as well as the inverse QFT gate are relati
 As a concrete example, we run the Shor's algorithm, measure the output of the quantum circuit and try to infer r from the denominator of the fraction 1000 times (the source code is in `src/Shor_simplified`). When r is found to not be the period, we also check for multiple of 2 and 3 of r. Then, we recover non-trivail factors of *N* with the relationship p = gcd(a^(r/2)-1, N) and q = gcd(a^(r/2)+1, N).
 In the specific case of N = 35 and a = 2, we find the correct period 60% of the time (r = 12). from which we recover p = gcd(63,35) = 7 and q = gcd(65,35) = 5.
 
-<img src="https://raw.githubusercontent.com/Aurelien-Pelissier/Medium/master/Quantum%20Programming/img/Shor35.png" width=500>
+<img src="https://raw.githubusercontent.com/Aurelien-Pelissier/Medium/master/Quantum%20Programming/img/Shor35.png" width=800>
 
 
 
