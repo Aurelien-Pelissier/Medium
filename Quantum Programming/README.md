@@ -43,7 +43,7 @@ For example, the Hadamard gate, H, performs the following operartion:
 
 
 ### Measures: Creating and measuring a Bell state
-Importantly, while a qubit could be in a superposition of state, a measurement of that qubit will collapse that entanglement into a single value with some probabilities, and we will get a binary number (1 or 0) after the measurment. To get the information about the entangled state, we need to run the same calculation at least 1000 times and check the number of time we measured each output.
+Importantly, while a qubit can be in a superposition of state, a measurement of that qubit will collapse that entanglement into a single value with some probabilities, and we will get a binary number (1 or 0) after the measurment. To get the information about the entangled state, we need to run the same calculation at least 1000 times and check the number of time we measured each output.
 To illustrate this, we can create a Bell state and measure it 1000 times. A Bell state is a specific maximally entangled quantum states of two qubits, so we except to measure |00⟩ and |11⟩ on average 500 times each after measurement. 
 
 <img src="https://raw.githubusercontent.com/Aurelien-Pelissier/IBMQ-Quantum-Computing/master/img/Bell.png" width=180>
