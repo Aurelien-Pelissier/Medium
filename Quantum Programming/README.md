@@ -137,7 +137,7 @@ The implementation of controlled *Ua* as well as the inverse QFT gate are relati
 As a concrete example, we run the Shor's algorithm, measure the output of the quantum circuit and try to infer r from the denominator of the fraction 1000 times (the source code is in `src/Shor_simplified`). When r is found to not be the period, we also check for multiple of 2 and 3 of r. Then, we recover non-trivail factors of *N* with the relationship p = gcd(a^(r/2)-1, N) and q = gcd(a^(r/2)+1, N).
 In the specific case of N = 35 and a = 2, we find the correct period 60% of the time (r = 12). from which we recover p = gcd(63,35) = 7 and q = gcd(65,35) = 5.
 
-<img src="https://raw.githubusercontent.com/Aurelien-Pelissier/IBMQ-Quantum-Computing/master/img/Shor35.png" width=500>
+<img src="https://raw.githubusercontent.com/Aurelien-Pelissier/Medium/master/Quantum%20Programming/img/Shor35.png" width=500>
 
 
 
