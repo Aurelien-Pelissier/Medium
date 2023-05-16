@@ -4,6 +4,8 @@
 
 ### [The Ultimate Hack: Crack your Credit Card with Quantum Programming](https://medium.com/p/17ddd045eba6/edit)
 
+The code in this repository is inspired from he Qiskit implementation of [Tiago Leão](https://github.com/ttlion/ShorAlgQiskit).
+
 &nbsp;
 
 
@@ -119,9 +121,6 @@ In our case, as seen on the figure below, we find the correct period 60% of the 
 &nbsp;
 
 ## References
-
-[1]: Kelly, J. (2018). Engineering superconducting qubit arrays for Quantum Supremacy. Bulletin of the American Physical Society. [http://meetings.aps.org/Meeting/MAR18/Session/A33.1]
-
 
 [2]: Shor, P. W. (1999). Polynomial-time algorithms for prime factorization and discrete logarithms on a quantum computer. SIAM review, 41(2), 303-332. [https://arxiv.org/abs/quant-ph/9508027]
 
