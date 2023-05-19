@@ -189,16 +189,16 @@ In our case, as seen on the figure below, we find the correct period 60% of the 
 
 ## References
 
-[[1]](http://meetings.aps.org/Meeting/MAR18/Session/A33.1): Kelly, J. (2018). Engineering superconducting qubit arrays for Quantum Supremacy. Bulletin of the American Physical Society.
+[[1]](http://meetings.aps.org/Meeting/MAR18/Session/A33.1) Kelly, J. (2018). Engineering superconducting qubit arrays for Quantum Supremacy. Bulletin of the American Physical Society.
 
 
-[[2]](https://arxiv.org/abs/quant-ph/9508027): Shor, P. W. (1999). Polynomial-time algorithms for prime factorization and discrete logarithms on a quantum computer. SIAM review, 41(2), 303-332.
+[[2]](https://arxiv.org/abs/quant-ph/9508027) Shor, P. W. (1999). Polynomial-time algorithms for prime factorization and discrete logarithms on a quantum computer. SIAM review, 41(2), 303-332.
 
 
-[[3]](https://www.nature.com/articles/414883a): Vandersypen, L. M., Steffen, M., Breyta, G., Yannoni, C. S., Sherwood, M. H., & Chuang, I. L. (2001). Experimental realization of Shor's quantum factoring algorithm using nuclear magnetic resonance. Nature, 414(6866), 883.
+[[3]](https://www.nature.com/articles/414883a) Vandersypen, L. M., Steffen, M., Breyta, G., Yannoni, C. S., Sherwood, M. H., & Chuang, I. L. (2001). Experimental realization of Shor's quantum factoring algorithm using nuclear magnetic resonance. Nature, 414(6866), 883.
 
 
-[[4]](https://arxiv.org/abs/1202.6614): Markov, I. L., & Saeedi, M. (2012). Constant-optimized quantum circuits for modular multiplication and exponentiation. arXiv preprint arXiv:1202.6614.
+[[4]](https://arxiv.org/abs/1202.6614) Markov, I. L., & Saeedi, M. (2012). Constant-optimized quantum circuits for modular multiplication and exponentiation. arXiv preprint arXiv:1202.6614.
 
 
-[[5]](https://arxiv.org/abs/quant-ph/0205095): Beauregard, Stephane. "Circuit for Shor's algorithm using 2n+ 3 qubits." arXiv preprint quant-ph/0205095 (2002).
+[[5]](https://arxiv.org/abs/quant-ph/0205095) Beauregard, Stephane. "Circuit for Shor's algorithm using 2n+ 3 qubits." arXiv preprint quant-ph/0205095 (2002).
