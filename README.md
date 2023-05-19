@@ -2,7 +2,7 @@
 This repository contains all the code used for my [medium articles](https://aurelien-pelissier.medium.com/). Click on the one you want to access.
 
 ### Machine learning & Data science
-- [Density Estimation for Bounded Variables: The transformation trick](Density%20estimation%20for%20bounded%20variables)
+- [Density Estimation for Bounded Variables: The Transformation Trick](Density%20estimation%20for%20bounded%20variables)
 - The equivalence statistical test -  How to show that two processes are equivalent ? [COMMING SOON]
 
 ### Quantum Programming
