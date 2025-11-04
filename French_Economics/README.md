@@ -33,9 +33,9 @@ https://fred.stlouisfed.org/series/IRLTLT01FRM156N
 ### Retirement Pensions
 - Age statistics of the french population since 1950: https://www.ined.fr/fr/tout-savoir-population/chiffres/france/structure-population/population-ages/
 - Used this to estimate the ratio of worker : retirees (Also accounting for the legal retirement age), and cross checked with https://www.insee.fr/fr/statistiques/2415121
-https://www.persee.fr/doc/pop_0032-4663_1989_num_44_6_3525
-- Average net alary of workers: https://www.insee.fr/fr/statistiques/6662214
-- Labor force participation rate per year: https://www.insee.fr/fr/statistiques/8242345
+- Average net salary of workers since 1950: https://www.insee.fr/fr/statistiques/6662214
+- Labor force participation rate since 1950: https://www.insee.fr/fr/statistiques/8242345
+- Pension levels: https://www.insee.fr/fr/statistiques/3303437
 
 ### Wealth Tax (IGF, ISF, IFI)
 - Recettes fiscales: https://fr.wikipedia.org/wiki/Imp%C3%B4t_de_solidarit%C3%A9_sur_la_fortune
