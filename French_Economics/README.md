@@ -40,7 +40,7 @@ https://www.persee.fr/doc/pop_0032-4663_1989_num_44_6_3525
 ### Wealth Tax (IGF, ISF, IFI)
 - Recettes fiscales: https://fr.wikipedia.org/wiki/Imp%C3%B4t_de_solidarit%C3%A9_sur_la_fortune
 
-### Additional data:
+### Additional Ressources:
 - The Macro-History Database: https://www.macrohistory.net/database/
 
 
