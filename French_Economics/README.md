@@ -28,7 +28,7 @@ https://db.nomics.world/AMECO/UBLG/FRA.1.0.319.0.UBLG
 -	French debt since 1959: https://www.imf.org/external/datamapper/DEBT1@DEBT/FRA
 -	10 years French bonds rate since 1960:
 https://fred.stlouisfed.org/series/IRLTLT01FRM156N
-(The effective cost of the debt was computed with a 8 years rolling average, which is roughly the average maturity of the french bond)
+(The effective cost of the debt was computed with a 8 years rolling average, which is roughly the average maturity of the french bonds)
 
 ### French Retirement Pensions
 - Age statistics of the french population since 1950: https://www.ined.fr/fr/tout-savoir-population/chiffres/france/structure-population/population-ages/
