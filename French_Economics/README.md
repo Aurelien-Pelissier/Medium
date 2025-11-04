@@ -1,7 +1,7 @@
 
 ### This repository supports the Medium article
 
-### [The Tyranny of the Median Voter: France's democratic road to Stagnation](https://medium.com/p/0a81466cc2dc)
+### [The Tyranny of the Median Voter: France's Democratic Road to Stagnation](https://medium.com/p/0a81466cc2dc)
 
 
 &nbsp;
