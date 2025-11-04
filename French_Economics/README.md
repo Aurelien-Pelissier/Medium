@@ -11,6 +11,13 @@
 
 Here I provide all the data and code I used for the article. To reproduce the figures and the analysis of the article, run `Data/Make_Figures.py`
 
+### EU and OCED statistics
+- Public Social Spending in OECD Countries: https://www.oecd.org/en/publications/public-social-spending-is-high-in-many-oecd-countries_c9a15b71-en.html
+- Net Fiscal Contributions in the EU: https://onlinelibrary.wiley.com/doi/10.1111/kykl.70009
+- 2025 International Tax competitiveness Ranking: https://taxfoundation.org/research/all/global/2025-international-tax-competitiveness-index/
+- 2025 Global Innovation Index rankings: https://www.wipo.int/web-publications/global-innovation-index-2025/en/index.html
+- 2025 Millionaires migration: https://www.henleyglobal.com/publications/henley-private-wealth-migration-report-2025
+
 ### Cumulative government deficit per decades since 1950s
 - French GDP since 1950: https://fred.stlouisfed.org/data/NGDPXDCFRA
 - French CPI since 1955: https://fred.stlouisfed.org/series/FRACPIALLAINMEI
