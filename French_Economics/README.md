@@ -23,7 +23,7 @@ To reproduce the figures and the analysis, run `Data/Make_Figures.py`
 ### French GDP and Debt
 - French GDP since 1950: https://fred.stlouisfed.org/data/NGDPXDCFRA
 - French CPI since 1955: https://fred.stlouisfed.org/series/FRACPIALLAINMEI
--	French net deficit since 1959: 
+-	French net yearly deficit since 1959: 
 https://db.nomics.world/AMECO/UBLG/FRA.1.0.319.0.UBLG
 -	French debt since 1959: https://www.imf.org/external/datamapper/DEBT1@DEBT/FRA
 -	10 years French bonds rate since 1960:
