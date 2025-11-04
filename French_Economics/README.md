@@ -7,7 +7,7 @@
 &nbsp;
 
 
-# French adn EU Economics
+# French and EU Economics
 
 All the data used for the article is in the `Data` folder. 
 To reproduce the figures and the analysis, run `Data/Make_Figures.py`
