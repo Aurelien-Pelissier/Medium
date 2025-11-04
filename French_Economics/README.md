@@ -29,7 +29,7 @@ https://www.persee.fr/doc/pop_0032-4663_1989_num_44_6_3525
 - Average net alary of workers: https://www.insee.fr/fr/statistiques/6662214
 - Labor force participation rate per year: https://www.insee.fr/fr/statistiques/8242345
 
-### Welath tax (IGF, ISF, IFI):
+### Wealth tax (IGF, ISF, IFI):
 - Recettes fiscales: https://fr.wikipedia.org/wiki/Imp%C3%B4t_de_solidarit%C3%A9_sur_la_fortune
 
 
