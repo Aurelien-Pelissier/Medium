@@ -42,5 +42,5 @@ https://www.persee.fr/doc/pop_0032-4663_1989_num_44_6_3525
 
 ### Additional Ressources:
 - The Macro-History Database: https://www.macrohistory.net/database/
-
+- Wealth-Income Ratios in Rich Countries 1700-2010: https://gabriel-zucman.eu/files/PikettyZucman2014Databook.pdf
 
