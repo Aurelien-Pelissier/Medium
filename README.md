@@ -16,3 +16,7 @@ This repository contains all the code used for my [medium articles](https://aure
 ### Physics
 - [Understanding Entropy and the second law of thermodynamics](Understanding%20entropy%20and%20the%20second%20law%20of%20thermodynamics)
 - [Rewinding the Universe to the Beginning of Time](Rewinding%20the%20Universe%20to%20the%20Beginning%20of%20Time)
+
+### Economics
+- [The Tyranny of the Median Voter: France’s Democratic Road to Stagnation](French_Economics)
+
