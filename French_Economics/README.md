@@ -14,6 +14,7 @@ To reproduce the figures and the analysis, run `Data/Make_Figures.py`
 
 ### EU and OCED statistics
 - Public Social Spending in OECD Countries: https://www.oecd.org/en/publications/public-social-spending-is-high-in-many-oecd-countries_c9a15b71-en.html
+- Historical Public Social Spending in OECD Countries: https://ourworldindata.org/grapher/social-spending-oecd-longrun
 - Net Fiscal Contributions in the EU: https://onlinelibrary.wiley.com/doi/10.1111/kykl.70009
 - 2025 International Tax competitiveness Ranking: https://taxfoundation.org/research/all/global/2025-international-tax-competitiveness-index/
 - 2025 Global Innovation Index rankings: https://www.wipo.int/web-publications/global-innovation-index-2025/en/index.html
@@ -39,5 +40,7 @@ https://www.persee.fr/doc/pop_0032-4663_1989_num_44_6_3525
 ### Wealth Tax (IGF, ISF, IFI)
 - Recettes fiscales: https://fr.wikipedia.org/wiki/Imp%C3%B4t_de_solidarit%C3%A9_sur_la_fortune
 
+### Additional data:
+- The Macro-History Database: https://www.macrohistory.net/database/
 
 
