@@ -1,0 +1,84 @@
+#In 1962, INSEE reports that 69% of 15–64-year-olds were in the labour force (recensement). Since 15–19 and 60–64 have much lower participation than 20–60, the same year’s 20–60 rate would be a few points higher—roughly ~72%#1975: ~73–76%. Prime-age activity was very high for men but much lower for women (25–49: men ≈97%, women ≈61%), pulling the combined 20–60 rate into the mid-70s. 
+#INSEE also notes that in 1962 only 40–45% of women aged 30–50 were active (men near 95% at those ages), which is consistent with a combined 20–60 LFPR in the low 70s.
+#1990: ~77–80%. Women’s participation rose; youth and early seniors were still comparatively less active. (Use INSEE “séries longues” to pin the exact mix.) 
+#2000: ~79–82%. Continued rise in women; seniors just starting to pick up. 
+#2010: ~81–83%. Stronger participation for 50–59; overall 15–64 activity hovered around low-70s then. 
+#2024: ~82–84%. Using INSEE 2024 activity: 20–24 ≈42.3%, 25–49 ≈88.6%, 50–64 ≈72.0%; weighting toward 20–60 (so a bit higher than 50–64, a bit lower than 25–49) lands in the low-/mid-80s. 
+
+year,lfpr_20_60_pct_est,method,source_anchor
+1950,66.0,Anchor (from INSEE-based inference),INSEE: 1962 15–64 LFPR 69% (recensement) → +~2–3 pts for 20–60; INSEE notes on female participation in 1962; post-1975 from age-group series.
+1951,66.5,Interpolated between pre-1975 anchors,INSEE: 1962 15–64 LFPR 69% (recensement) → +~2–3 pts for 20–60; INSEE notes on female participation in 1962; post-1975 from age-group series.
+1952,67.0,Interpolated between pre-1975 anchors,INSEE: 1962 15–64 LFPR 69% (recensement) → +~2–3 pts for 20–60; INSEE notes on female participation in 1962; post-1975 from age-group series.
+1953,67.5,Interpolated between pre-1975 anchors,INSEE: 1962 15–64 LFPR 69% (recensement) → +~2–3 pts for 20–60; INSEE notes on female participation in 1962; post-1975 from age-group series.
+1954,68.0,Interpolated between pre-1975 anchors,INSEE: 1962 15–64 LFPR 69% (recensement) → +~2–3 pts for 20–60; INSEE notes on female participation in 1962; post-1975 from age-group series.
+1955,68.5,Interpolated between pre-1975 anchors,INSEE: 1962 15–64 LFPR 69% (recensement) → +~2–3 pts for 20–60; INSEE notes on female participation in 1962; post-1975 from age-group series.
+1956,69.0,Interpolated between pre-1975 anchors,INSEE: 1962 15–64 LFPR 69% (recensement) → +~2–3 pts for 20–60; INSEE notes on female participation in 1962; post-1975 from age-group series.
+1957,69.5,Interpolated between pre-1975 anchors,INSEE: 1962 15–64 LFPR 69% (recensement) → +~2–3 pts for 20–60; INSEE notes on female participation in 1962; post-1975 from age-group series.
+1958,70.0,Interpolated between pre-1975 anchors,INSEE: 1962 15–64 LFPR 69% (recensement) → +~2–3 pts for 20–60; INSEE notes on female participation in 1962; post-1975 from age-group series.
+1959,70.5,Interpolated between pre-1975 anchors,INSEE: 1962 15–64 LFPR 69% (recensement) → +~2–3 pts for 20–60; INSEE notes on female participation in 1962; post-1975 from age-group series.
+1960,71.0,Interpolated between pre-1975 anchors,INSEE: 1962 15–64 LFPR 69% (recensement) → +~2–3 pts for 20–60; INSEE notes on female participation in 1962; post-1975 from age-group series.
+1961,71.5,Interpolated between pre-1975 anchors,INSEE: 1962 15–64 LFPR 69% (recensement) → +~2–3 pts for 20–60; INSEE notes on female participation in 1962; post-1975 from age-group series.
+1962,72.0,Anchor (from INSEE-based inference),INSEE: 1962 15–64 LFPR 69% (recensement) → +~2–3 pts for 20–60; INSEE notes on female participation in 1962; post-1975 from age-group series.
+1963,72.1,Interpolated between pre-1975 anchors,INSEE: 1962 15–64 LFPR 69% (recensement) → +~2–3 pts for 20–60; INSEE notes on female participation in 1962; post-1975 from age-group series.
+1964,72.2,Interpolated between pre-1975 anchors,INSEE: 1962 15–64 LFPR 69% (recensement) → +~2–3 pts for 20–60; INSEE notes on female participation in 1962; post-1975 from age-group series.
+1965,72.4,Interpolated between pre-1975 anchors,INSEE: 1962 15–64 LFPR 69% (recensement) → +~2–3 pts for 20–60; INSEE notes on female participation in 1962; post-1975 from age-group series.
+1966,72.5,Interpolated between pre-1975 anchors,INSEE: 1962 15–64 LFPR 69% (recensement) → +~2–3 pts for 20–60; INSEE notes on female participation in 1962; post-1975 from age-group series.
+1967,72.6,Interpolated between pre-1975 anchors,INSEE: 1962 15–64 LFPR 69% (recensement) → +~2–3 pts for 20–60; INSEE notes on female participation in 1962; post-1975 from age-group series.
+1968,72.8,Interpolated between pre-1975 anchors,INSEE: 1962 15–64 LFPR 69% (recensement) → +~2–3 pts for 20–60; INSEE notes on female participation in 1962; post-1975 from age-group series.
+1969,72.9,Interpolated between pre-1975 anchors,INSEE: 1962 15–64 LFPR 69% (recensement) → +~2–3 pts for 20–60; INSEE notes on female participation in 1962; post-1975 from age-group series.
+1970,73.0,Anchor (from INSEE-based inference),INSEE: 1962 15–64 LFPR 69% (recensement) → +~2–3 pts for 20–60; INSEE notes on female participation in 1962; post-1975 from age-group series.
+1971,73.4,Interpolated between pre-1975 anchors,INSEE: 1962 15–64 LFPR 69% (recensement) → +~2–3 pts for 20–60; INSEE notes on female participation in 1962; post-1975 from age-group series.
+1972,73.8,Interpolated between pre-1975 anchors,INSEE: 1962 15–64 LFPR 69% (recensement) → +~2–3 pts for 20–60; INSEE notes on female participation in 1962; post-1975 from age-group series.
+1973,74.2,Interpolated between pre-1975 anchors,INSEE: 1962 15–64 LFPR 69% (recensement) → +~2–3 pts for 20–60; INSEE notes on female participation in 1962; post-1975 from age-group series.
+1974,74.6,Interpolated between pre-1975 anchors,INSEE: 1962 15–64 LFPR 69% (recensement) → +~2–3 pts for 20–60; INSEE notes on female participation in 1962; post-1975 from age-group series.
+1975,75.0,Interpolated from 1975 anchor (INSEE long series start 1975),INSEE t101 & age-group activity notes (see chat citations)
+1976,75.3,Interpolated from 1975 anchor (INSEE long series start 1975),INSEE t101 & age-group activity notes (see chat citations)
+1977,75.5,Interpolated from 1975 anchor (INSEE long series start 1975),INSEE t101 & age-group activity notes (see chat citations)
+1978,75.8,Interpolated from 1975 anchor (INSEE long series start 1975),INSEE t101 & age-group activity notes (see chat citations)
+1979,76.1,Interpolated from 1975 anchor (INSEE long series start 1975),INSEE t101 & age-group activity notes (see chat citations)
+1980,76.3,Interpolated from 1975 anchor (INSEE long series start 1975),INSEE t101 & age-group activity notes (see chat citations)
+1981,76.6,Interpolated from 1975 anchor (INSEE long series start 1975),INSEE t101 & age-group activity notes (see chat citations)
+1982,76.9,Interpolated from 1975 anchor (INSEE long series start 1975),INSEE t101 & age-group activity notes (see chat citations)
+1983,77.1,Interpolated from 1975 anchor (INSEE long series start 1975),INSEE t101 & age-group activity notes (see chat citations)
+1984,77.4,Interpolated from 1975 anchor (INSEE long series start 1975),INSEE t101 & age-group activity notes (see chat citations)
+1985,77.7,Interpolated from 1975 anchor (INSEE long series start 1975),INSEE t101 & age-group activity notes (see chat citations)
+1986,77.9,Interpolated from 1975 anchor (INSEE long series start 1975),INSEE t101 & age-group activity notes (see chat citations)
+1987,78.2,Interpolated from 1975 anchor (INSEE long series start 1975),INSEE t101 & age-group activity notes (see chat citations)
+1988,78.5,Interpolated from 1975 anchor (INSEE long series start 1975),INSEE t101 & age-group activity notes (see chat citations)
+1989,78.7,Interpolated from 1975 anchor (INSEE long series start 1975),INSEE t101 & age-group activity notes (see chat citations)
+1990,79.0,Interpolated from 1975 anchor (INSEE long series start 1975),INSEE t101 & age-group activity notes (see chat citations)
+1991,79.2,Interpolated between 1990 & 2000 anchors,INSEE t101 & age-group activity notes (see chat citations)
+1992,79.4,Interpolated between 1990 & 2000 anchors,INSEE t101 & age-group activity notes (see chat citations)
+1993,79.6,Interpolated between 1990 & 2000 anchors,INSEE t101 & age-group activity notes (see chat citations)
+1994,79.8,Interpolated between 1990 & 2000 anchors,INSEE t101 & age-group activity notes (see chat citations)
+1995,80.0,Interpolated between 1990 & 2000 anchors,INSEE t101 & age-group activity notes (see chat citations)
+1996,80.2,Interpolated between 1990 & 2000 anchors,INSEE t101 & age-group activity notes (see chat citations)
+1997,80.4,Interpolated between 1990 & 2000 anchors,INSEE t101 & age-group activity notes (see chat citations)
+1998,80.6,Interpolated between 1990 & 2000 anchors,INSEE t101 & age-group activity notes (see chat citations)
+1999,80.8,Interpolated between 1990 & 2000 anchors,INSEE t101 & age-group activity notes (see chat citations)
+2000,81.0,Interpolated between 1990 & 2000 anchors,INSEE t101 & age-group activity notes (see chat citations)
+2001,81.1,Interpolated between 2000 & 2010 anchors,INSEE t101 & age-group activity notes (see chat citations)
+2002,81.2,Interpolated between 2000 & 2010 anchors,INSEE t101 & age-group activity notes (see chat citations)
+2003,81.3,Interpolated between 2000 & 2010 anchors,INSEE t101 & age-group activity notes (see chat citations)
+2004,81.4,Interpolated between 2000 & 2010 anchors,INSEE t101 & age-group activity notes (see chat citations)
+2005,81.5,Interpolated between 2000 & 2010 anchors,INSEE t101 & age-group activity notes (see chat citations)
+2006,81.6,Interpolated between 2000 & 2010 anchors,INSEE t101 & age-group activity notes (see chat citations)
+2007,81.7,Interpolated between 2000 & 2010 anchors,INSEE t101 & age-group activity notes (see chat citations)
+2008,81.8,Interpolated between 2000 & 2010 anchors,INSEE t101 & age-group activity notes (see chat citations)
+2009,81.9,Interpolated between 2000 & 2010 anchors,INSEE t101 & age-group activity notes (see chat citations)
+2010,82.0,Interpolated between 2000 & 2010 anchors,INSEE t101 & age-group activity notes (see chat citations)
+2011,82.1,Interpolated toward 2024 anchor (uses INSEE 2024 age-group LFPRs),INSEE t101 & age-group activity notes (see chat citations)
+2012,82.2,Interpolated toward 2024 anchor (uses INSEE 2024 age-group LFPRs),INSEE t101 & age-group activity notes (see chat citations)
+2013,82.3,Interpolated toward 2024 anchor (uses INSEE 2024 age-group LFPRs),INSEE t101 & age-group activity notes (see chat citations)
+2014,82.4,Interpolated toward 2024 anchor (uses INSEE 2024 age-group LFPRs),INSEE t101 & age-group activity notes (see chat citations)
+2015,82.5,Interpolated toward 2024 anchor (uses INSEE 2024 age-group LFPRs),INSEE t101 & age-group activity notes (see chat citations)
+2016,82.6,Interpolated toward 2024 anchor (uses INSEE 2024 age-group LFPRs),INSEE t101 & age-group activity notes (see chat citations)
+2017,82.8,Interpolated toward 2024 anchor (uses INSEE 2024 age-group LFPRs),INSEE t101 & age-group activity notes (see chat citations)
+2018,82.9,Interpolated toward 2024 anchor (uses INSEE 2024 age-group LFPRs),INSEE t101 & age-group activity notes (see chat citations)
+2019,83.0,Interpolated toward 2024 anchor (uses INSEE 2024 age-group LFPRs),INSEE t101 & age-group activity notes (see chat citations)
+2020,83.1,Interpolated toward 2024 anchor (uses INSEE 2024 age-group LFPRs),INSEE t101 & age-group activity notes (see chat citations)
+2021,83.2,Interpolated toward 2024 anchor (uses INSEE 2024 age-group LFPRs),INSEE t101 & age-group activity notes (see chat citations)
+2022,83.3,Interpolated toward 2024 anchor (uses INSEE 2024 age-group LFPRs),INSEE t101 & age-group activity notes (see chat citations)
+2023,83.4,Interpolated toward 2024 anchor (uses INSEE 2024 age-group LFPRs),INSEE t101 & age-group activity notes (see chat citations)
+2024,83.5,Anchor year using INSEE 2024 age-group LFPRs,INSEE t101 & age-group activity notes (see chat citations)
+2025,83.7,Carry-forward with small uptick,INSEE t101 & age-group activity notes (see chat citations)

@@ -1,0 +1,44 @@
+Year,IGF_EUR_Bn,ISF_EUR_Bn,IFI_EUR_Bn,Notes
+1982,0.46,,,IGF first-year yield ≈3bn FRF ≈€0.46bn; source: Wikipedia FR citing law history
+1983,0.483,,,Extrapolated IGF: +5%/yr nominal from 1982 baseline
+1984,0.507,,,Extrapolated IGF: +5%/yr nominal from 1982 baseline
+1985,0.533,,,Extrapolated IGF: +5%/yr nominal from 1982 baseline
+1986,0.559,,,Extrapolated IGF: +5%/yr nominal from 1982 baseline
+1987,,,,No tax
+1988,,,,No tax
+1989,,0.845,,Extrapolated ISF 1989: backcast from 1992 with -6%/yr nominal
+1990,,0.895,,Extrapolated ISF 1990: backcast from 1992 with -6%/yr nominal
+1991,,0.949,,Extrapolated ISF 1991: backcast from 1992 with -6%/yr nominal
+1992,,1.006,,ISF produit attendu 6.6 Fbn (Senat 1992) → EUR via 6.55957
+1993,,1.135,,Extrapolated ISF 1993: linear between 1992 and 1994 anchors
+1994,,1.265,,ISF a rapporté 8.3 Fbn (Senat 1996) → EUR via 6.55957
+1995,,1.342,,ISF devrait rapporter ~8.8 Fbn (Senat 1996) → EUR via 6.55957
+1996,,1.438,,Extrapolated ISF 1996: linear between 1995 and 1997 anchors
+1997,,1.534,,ISF 10.06 Fbn (AN PLF 2000) → EUR via 6.55957
+1998,,1.697,,ISF receipts (DGFiP/PLF 2017 series)
+1999,,1.942,,ISF receipts (DGFiP/PLF 2017 series)
+2000,,2.238,,ISF receipts (DGFiP/PLF 2017 series)
+2001,,2.39,,ISF receipts (DGFiP/PLF 2017 series)
+2002,,2.27,,ISF receipts (DGFiP/PLF 2017 series)
+2003,,2.335,,ISF receipts (DGFiP/PLF 2017 series)
+2004,,2.646,,ISF receipts (DGFiP/PLF 2017 series)
+2005,,3.076,,ISF receipts (DGFiP/PLF 2017 series)
+2006,,3.68,,ISF receipts (DGFiP/PLF 2017 series)
+2007,,4.031,,ISF receipts (DGFiP/PLF 2017 series)
+2008,,3.81,,ISF receipts (DGFiP/PLF 2017 series)
+2009,,3.27,,ISF receipts (DGFiP/PLF 2017 series)
+2010,,4.46,,ISF receipts (DGFiP/PLF 2017 series)
+2011,,4.321,,ISF receipts (DGFiP/PLF 2017 series)
+2012,,5.043,,ISF receipts (DGFiP/PLF 2017 series)
+2013,,4.39,,ISF receipts (DGFiP/PLF 2017 series)
+2014,,5.198,,ISF receipts (DGFiP/PLF 2017 series)
+2015,,5.224,,ISF receipts (DGFiP/PLF 2017 series)
+2016,,5.051,,ISF receipts (DGFiP/PLF 2017 series)
+2017,,5.067,,ISF receipts (DGFiP/PLF 2017 series)
+2018,,,1.29,IFI first year (France Stratégie 2023)
+2019,,,1.494,≈1.494 (derived from DGFiP: 2020 total 1.56bn is +4.4% vs 2019)
+2020,,,1.56,DGFiP Statistiques 2021 n°01
+2021,,,1.635,≈1.635 (derived from DGFiP 2023 note: 2022 total 1.8bn is +10.1% vs 2021)
+2022,,,1.83,DGFiP/France Stratégie 2023
+2023,,,1.9,DGFiP Statistiques 2024 (IFI 2023)
+2024,,,2.2,DGFiP Statistiques 2025 (IFI 2024) / Vie-publique

@@ -1,0 +1,80 @@
+#a year-by-year CSV with best-effort estimates for a typical private-sector employee (salary up to the PSS), 
+#combining: CNAV base (plafonné + déplafonné) and complementary (ARRCO/AGIRC → Agirc-Arrco T1).
+
+year,base_cnav_under_pss_total_pct,base_cnav_deplafonnee_total_pct,complementary_T1_total_pct_est,total_on_salary_up_to_pss_pct,legal_basis_base,legal_basis_complementary
+1950,6.0,0.0,0.0,6.0,"Estimation (1950–1966), pas de texte précis",NA (pas de régime complémentaire généralisé)
+1951,6.15,0.0,0.25,6.4,"Estimation (1950–1966), pas de texte précis",NA (pas de régime complémentaire généralisé)
+1952,6.29,0.0,0.5,6.79,"Estimation (1950–1966), pas de texte précis",NA (pas de régime complémentaire généralisé)
+1953,6.44,0.0,0.75,7.19,"Estimation (1950–1966), pas de texte précis",NA (pas de régime complémentaire généralisé)
+1954,6.59,0.0,1.0,7.59,"Estimation (1950–1966), pas de texte précis",NA (pas de régime complémentaire généralisé)
+1955,6.74,0.0,1.25,7.99,"Estimation (1950–1966), pas de texte précis",NA (pas de régime complémentaire généralisé)
+1956,6.88,0.0,1.5,8.38,"Estimation (1950–1966), pas de texte précis",NA (pas de régime complémentaire généralisé)
+1957,7.03,0.0,1.75,8.78,"Estimation (1950–1966), pas de texte précis",NA (pas de régime complémentaire généralisé)
+1958,7.18,0.0,2.0,9.18,"Estimation (1950–1966), pas de texte précis",NA (pas de régime complémentaire généralisé)
+1959,7.32,0.0,2.25,9.57,"Estimation (1950–1966), pas de texte précis",NA (pas de régime complémentaire généralisé)
+1960,7.47,0.0,2.5,9.97,"Estimation (1950–1966), pas de texte précis",NA (pas de régime complémentaire généralisé)
+1961,7.62,0.0,2.75,10.37,"Estimation (1950–1966), pas de texte précis",NA (pas de régime complémentaire généralisé)
+1962,7.76,0.0,3.0,10.76,"Estimation (1950–1966), pas de texte précis",Accords fondateurs Arrco (généralisation dès 1962)
+1963,7.91,0.0,3.11,11.02,"Estimation (1950–1966), pas de texte précis",Accords fondateurs Arrco (généralisation dès 1962)
+1964,8.06,0.0,3.22,11.28,"Estimation (1950–1966), pas de texte précis",Accords fondateurs Arrco (généralisation dès 1962)
+1965,8.21,0.0,3.33,11.54,"Estimation (1950–1966), pas de texte précis",Accords fondateurs Arrco (généralisation dès 1962)
+1966,8.35,0.0,3.44,11.79,"Estimation (1950–1966), pas de texte précis",Accords fondateurs Arrco (généralisation dès 1962)
+1967,8.5,0.0,3.56,12.06,Code de la sécurité sociale (art. D.242-4) – compilation IPP (table CNAV),Accords fondateurs Arrco (généralisation dès 1962)
+1968,8.5,0.0,3.67,12.17,Code de la sécurité sociale (art. D.242-4) – compilation IPP (table CNAV),Accords fondateurs Arrco (généralisation dès 1962)
+1969,8.5,0.0,3.78,12.28,Code de la sécurité sociale (art. D.242-4) – compilation IPP (table CNAV),Accords fondateurs Arrco (généralisation dès 1962)
+1970,8.75,0.0,3.89,12.64,Code de la sécurité sociale (art. D.242-4) – compilation IPP (table CNAV),Accords fondateurs Arrco (généralisation dès 1962)
+1971,8.75,0.0,4.0,12.75,Code de la sécurité sociale (art. D.242-4) – compilation IPP (table CNAV),Accords Arrco/Agirc – taux d’appel (>100%) à l’Arrco dès 1971
+1972,8.75,0.0,4.19,12.94,Code de la sécurité sociale (art. D.242-4) – compilation IPP (table CNAV),Accords Arrco/Agirc – taux d’appel (>100%) à l’Arrco dès 1971
+1973,8.75,0.0,4.38,13.13,Code de la sécurité sociale (art. D.242-4) – compilation IPP (table CNAV),Accords Arrco/Agirc – taux d’appel (>100%) à l’Arrco dès 1971
+1974,10.25,0.0,4.56,14.81,Code de la sécurité sociale (art. D.242-4) – compilation IPP (table CNAV),Accords Arrco/Agirc – taux d’appel (>100%) à l’Arrco dès 1971
+1975,10.25,0.0,4.75,15.0,Code de la sécurité sociale (art. D.242-4) – compilation IPP (table CNAV),Accords Arrco/Agirc – taux d’appel (>100%) à l’Arrco dès 1971
+1976,11.15,0.0,4.94,16.09,Code de la sécurité sociale (art. D.242-4) – compilation IPP (table CNAV),Accords Arrco/Agirc – taux d’appel (>100%) à l’Arrco dès 1971
+1977,11.15,0.0,5.12,16.27,Code de la sécurité sociale (art. D.242-4) – compilation IPP (table CNAV),Accords Arrco/Agirc – taux d’appel (>100%) à l’Arrco dès 1971
+1978,11.15,0.0,5.31,16.46,Code de la sécurité sociale (art. D.242-4) – compilation IPP (table CNAV),Accords Arrco/Agirc – taux d’appel (>100%) à l’Arrco dès 1971
+1979,12.9,0.0,5.5,18.4,Code de la sécurité sociale (art. D.242-4) – compilation IPP (table CNAV),Accords Arrco/Agirc – taux d’appel (>100%) à l’Arrco dès 1971
+1980,12.9,0.0,5.58,18.48,Code de la sécurité sociale (art. D.242-4) – compilation IPP (table CNAV),Accords Arrco/Agirc – taux d’appel (>100%) à l’Arrco dès 1971
+1981,12.9,0.0,5.65,18.55,Code de la sécurité sociale (art. D.242-4) – compilation IPP (table CNAV),Accords Arrco/Agirc – taux d’appel (>100%) à l’Arrco dès 1971
+1982,12.9,0.0,5.73,18.63,Code de la sécurité sociale (art. D.242-4) – compilation IPP (table CNAV),Accords Arrco/Agirc – taux d’appel (>100%) à l’Arrco dès 1971
+1983,12.9,0.0,5.81,18.71,Code de la sécurité sociale (art. D.242-4) – compilation IPP (table CNAV),Accords Arrco/Agirc – taux d’appel (>100%) à l’Arrco dès 1971
+1984,13.9,0.0,5.88,19.78,Code de la sécurité sociale (art. D.242-4) – compilation IPP (table CNAV),Accords Arrco/Agirc – taux d’appel (>100%) à l’Arrco dès 1971
+1985,13.9,0.0,5.96,19.86,Code de la sécurité sociale (art. D.242-4) – compilation IPP (table CNAV),Accords Arrco/Agirc – taux d’appel (>100%) à l’Arrco dès 1971
+1986,14.6,0.0,6.04,20.64,Code de la sécurité sociale (art. D.242-4) – compilation IPP (table CNAV),Accords Arrco/Agirc – taux d’appel (>100%) à l’Arrco dès 1971
+1987,14.8,0.0,6.12,20.92,Code de la sécurité sociale (art. D.242-4) – compilation IPP (table CNAV),Accords Arrco/Agirc – taux d’appel (>100%) à l’Arrco dès 1971
+1988,14.8,0.0,6.19,20.99,Code de la sécurité sociale (art. D.242-4) – compilation IPP (table CNAV),Accords Arrco/Agirc – taux d’appel (>100%) à l’Arrco dès 1971
+1989,15.8,0.0,6.27,22.07,Code de la sécurité sociale (art. D.242-4) – compilation IPP (table CNAV),Accords Arrco/Agirc – taux d’appel (>100%) à l’Arrco dès 1971
+1990,15.8,0.0,6.35,22.15,Code de la sécurité sociale (art. D.242-4) – compilation IPP (table CNAV),Accords Arrco/Agirc – taux d’appel (>100%) à l’Arrco dès 1971
+1991,14.75,1.6,6.42,22.77,Loi n°91-73 du 18/01/1991 (art. 28) + Décret n°91-91 du 23/01/1991 (déplafonnée),Accords Arrco/Agirc – taux d’appel (>100%) à l’Arrco dès 1971
+1992,14.75,1.6,6.5,22.85,Loi n°91-73 du 18/01/1991 (art. 28) + Décret n°91-91 du 23/01/1991 (déplafonnée),Accords Arrco/Agirc – taux d’appel (>100%) à l’Arrco dès 1971
+1993,14.75,1.6,6.61,22.96,Loi n°91-73 du 18/01/1991 (art. 28) + Décret n°91-91 du 23/01/1991 (déplafonnée),Accords Arrco/Agirc – taux d’appel (>100%) à l’Arrco dès 1971
+1994,14.75,1.6,6.72,23.07,Loi n°91-73 du 18/01/1991 (art. 28) + Décret n°91-91 du 23/01/1991 (déplafonnée),Accords Arrco/Agirc – taux d’appel (>100%) à l’Arrco dès 1971
+1995,14.75,1.6,6.83,23.18,Loi n°91-73 du 18/01/1991 (art. 28) + Décret n°91-91 du 23/01/1991 (déplafonnée),Accords Arrco/Agirc – taux d’appel (>100%) à l’Arrco dès 1971
+1996,14.75,1.6,6.94,23.29,Loi n°91-73 du 18/01/1991 (art. 28) + Décret n°91-91 du 23/01/1991 (déplafonnée),Accord Agirc/Arrco du 25/04/1996 (appel 125%) + Accord du 16/07/2008
+1997,14.75,1.6,7.06,23.41,Loi n°91-73 du 18/01/1991 (art. 28) + Décret n°91-91 du 23/01/1991 (déplafonnée),Accord Agirc/Arrco du 25/04/1996 (appel 125%) + Accord du 16/07/2008
+1998,14.75,1.6,7.17,23.52,Loi n°91-73 du 18/01/1991 (art. 28) + Décret n°91-91 du 23/01/1991 (déplafonnée),Accord Agirc/Arrco du 25/04/1996 (appel 125%) + Accord du 16/07/2008
+1999,14.75,1.6,7.28,23.63,Loi n°91-73 du 18/01/1991 (art. 28) + Décret n°91-91 du 23/01/1991 (déplafonnée),Accord Agirc/Arrco du 25/04/1996 (appel 125%) + Accord du 16/07/2008
+2000,14.75,1.6,7.39,23.74,Loi n°91-73 du 18/01/1991 (art. 28) + Décret n°91-91 du 23/01/1991 (déplafonnée),Accord Agirc/Arrco du 25/04/1996 (appel 125%) + Accord du 16/07/2008
+2001,14.75,1.6,7.5,23.85,Loi n°91-73 du 18/01/1991 (art. 28) + Décret n°91-91 du 23/01/1991 (déplafonnée),Accord Agirc/Arrco du 25/04/1996 (appel 125%) + Accord du 16/07/2008
+2002,14.75,1.6,7.6,23.95,Loi n°91-73 du 18/01/1991 (art. 28) + Décret n°91-91 du 23/01/1991 (déplafonnée),Accord Agirc/Arrco du 25/04/1996 (appel 125%) + Accord du 16/07/2008
+2003,14.75,1.6,7.7,24.05,Loi n°91-73 du 18/01/1991 (art. 28) + Décret n°91-91 du 23/01/1991 (déplafonnée),Accord Agirc/Arrco du 25/04/1996 (appel 125%) + Accord du 16/07/2008
+2004,14.75,1.7,7.8,24.25,Loi n°91-73 du 18/01/1991 (art. 28) + Décret n°91-91 du 23/01/1991 (déplafonnée),Accord Agirc/Arrco du 25/04/1996 (appel 125%) + Accord du 16/07/2008
+2005,14.75,1.7,7.9,24.35,Loi n°91-73 du 18/01/1991 (art. 28) + Décret n°91-91 du 23/01/1991 (déplafonnée),Accord Agirc/Arrco du 25/04/1996 (appel 125%) + Accord du 16/07/2008
+2006,14.95,1.7,8.0,24.65,Loi n°91-73 du 18/01/1991 (art. 28) + Décret n°91-91 du 23/01/1991 (déplafonnée),Accord Agirc/Arrco du 25/04/1996 (appel 125%) + Accord du 16/07/2008
+2007,14.95,1.7,8.1,24.75,Loi n°91-73 du 18/01/1991 (art. 28) + Décret n°91-91 du 23/01/1991 (déplafonnée),Accord Agirc/Arrco du 25/04/1996 (appel 125%) + Accord du 16/07/2008
+2008,14.95,1.7,8.2,24.85,Loi n°91-73 du 18/01/1991 (art. 28) + Décret n°91-91 du 23/01/1991 (déplafonnée),Accord Agirc/Arrco du 25/04/1996 (appel 125%) + Accord du 16/07/2008
+2009,14.95,1.7,8.3,24.95,Loi n°91-73 du 18/01/1991 (art. 28) + Décret n°91-91 du 23/01/1991 (déplafonnée),Accord Agirc/Arrco du 25/04/1996 (appel 125%) + Accord du 16/07/2008
+2010,14.95,1.7,8.4,25.05,Loi n°91-73 du 18/01/1991 (art. 28) + Décret n°91-91 du 23/01/1991 (déplafonnée),Accord Agirc/Arrco du 25/04/1996 (appel 125%) + Accord du 16/07/2008
+2011,14.95,1.7,8.5,25.15,Loi n°91-73 du 18/01/1991 (art. 28) + Décret n°91-91 du 23/01/1991 (déplafonnée),Accord Agirc/Arrco du 25/04/1996 (appel 125%) + Accord du 16/07/2008
+2012,15.15,1.7,8.69,25.54,Loi n°91-73 du 18/01/1991 (art. 28) + Décret n°91-91 du 23/01/1991 (déplafonnée),Accord Agirc/Arrco du 25/04/1996 (appel 125%) + Accord du 16/07/2008
+2013,15.15,1.7,8.88,25.73,Loi n°91-73 du 18/01/1991 (art. 28) + Décret n°91-91 du 23/01/1991 (déplafonnée),Accord Agirc/Arrco du 25/04/1996 (appel 125%) + Accord du 16/07/2008
+2014,15.25,2.0,9.07,26.32,Loi n°91-73 du 18/01/1991 (art. 28) + Décret n°91-91 du 23/01/1991 (déplafonnée),Accord Agirc/Arrco du 25/04/1996 (appel 125%) + Accord du 16/07/2008
+2015,15.35,2.1,9.26,26.71,Décret n°2014-1531 du 17/12/2014 (relèvement 2015–2017),Accord Agirc/Arrco du 25/04/1996 (appel 125%) + Accord du 16/07/2008
+2016,15.45,2.2,9.45,27.1,Décret n°2014-1531 du 17/12/2014 (relèvement 2015–2017),Accord Agirc/Arrco du 25/04/1996 (appel 125%) + Accord du 16/07/2008
+2017,15.45,2.3,9.64,27.39,Décret n°2014-1531 du 17/12/2014 (relèvement 2015–2017),Accord Agirc/Arrco du 25/04/1996 (appel 125%) + Accord du 16/07/2008
+2018,15.45,2.3,9.83,27.58,Décret n°2014-1531 du 17/12/2014 (relèvement 2015–2017),Accord Agirc/Arrco du 25/04/1996 (appel 125%) + Accord du 16/07/2008
+2019,15.45,2.3,10.02,27.77,"Estimation (1950–1966), pas de texte précis",ANI du 17/11/2017 (Agirc-Arrco) + Paramètres officiels (CEG/CET)
+2020,15.45,2.3,10.02,27.77,"Estimation (1950–1966), pas de texte précis",ANI du 17/11/2017 (Agirc-Arrco) + Paramètres officiels (CEG/CET)
+2021,15.45,2.3,10.02,27.77,"Estimation (1950–1966), pas de texte précis",ANI du 17/11/2017 (Agirc-Arrco) + Paramètres officiels (CEG/CET)
+2022,15.45,2.3,10.02,27.77,"Estimation (1950–1966), pas de texte précis",ANI du 17/11/2017 (Agirc-Arrco) + Paramètres officiels (CEG/CET)
+2023,15.45,2.3,10.02,27.77,"Estimation (1950–1966), pas de texte précis",ANI du 17/11/2017 (Agirc-Arrco) + Paramètres officiels (CEG/CET)
+2024,15.45,2.42,10.02,27.89,Décret n°2023-1329 du 29/12/2023 (art. 1 modif. D.242-4 CSS),ANI du 17/11/2017 (Agirc-Arrco) + Paramètres officiels (CEG/CET)
+2025,15.45,2.42,10.02,27.89,Décret n°2023-1329 du 29/12/2023 (art. 1 modif. D.242-4 CSS),ANI du 17/11/2017 (Agirc-Arrco) + Paramètres officiels (CEG/CET)
