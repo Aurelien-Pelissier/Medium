@@ -39,6 +39,8 @@ https://fred.stlouisfed.org/series/IRLTLT01FRM156N
 
 ### Wealth Tax (IGF, ISF, IFI)
 - Recettes fiscales: https://fr.wikipedia.org/wiki/Imp%C3%B4t_de_solidarit%C3%A9_sur_la_fortune
+- Cross-checked with: https://www.ifrap.org/budget-et-fiscalite/ce-que-lisf-fait-perdre-la-france
+- Cross-checked with: https://www.rexecode.fr/media/documents/document-de-travail/2017/document-de-travail-n-63-les-consequences-economiques-des-expatriations-dues-aux-ecarts-de-fiscalite-entre-la-france-et-les-autres-pays
 
 ## Additional Ressources:
 - The Macro-History Database: https://www.macrohistory.net/database/
