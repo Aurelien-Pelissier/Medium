@@ -9,7 +9,8 @@
 
 # French Economics
 
-Here I provide all the data and code I used for the article. To reproduce the figures and the analysis of the article, run `Data/Make_Figures.py`
+All the data used for the article is in `Data`. 
+To reproduce the figures and the analysis, run `Data/Make_Figures.py`
 
 ### EU and OCED statistics
 - Public Social Spending in OECD Countries: https://www.oecd.org/en/publications/public-social-spending-is-high-in-many-oecd-countries_c9a15b71-en.html
