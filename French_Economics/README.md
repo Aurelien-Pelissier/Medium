@@ -13,7 +13,7 @@ Here I provide all the data and code I used for the article. To reproduce the fi
 
 ### Cumulative government deficit per decades since 1950s
 - French GDP since 1950: https://fred.stlouisfed.org/data/NGDPXDCFRA
-- French CPI: https://fred.stlouisfed.org/series/FRACPIALLAINMEI
+- French CPI since 1955: https://fred.stlouisfed.org/series/FRACPIALLAINMEI
 -	French net deficit since 1959: 
 https://db.nomics.world/AMECO/UBLG/FRA.1.0.319.0.UBLG
 -	French debt since 1959: https://www.imf.org/external/datamapper/DEBT1@DEBT/FRA
