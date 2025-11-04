@@ -31,7 +31,7 @@ https://fred.stlouisfed.org/series/IRLTLT01FRM156N
 (The effective cost of the debt was computed with a 8 years rolling average, which is roughly the average maturity of the french bond)
 
 ### Retirement Pensions
-- Collected statistics about french population since 1950: https://www.ined.fr/fr/tout-savoir-population/chiffres/france/structure-population/population-ages/
+- Age statistics of the french population since 1950: https://www.ined.fr/fr/tout-savoir-population/chiffres/france/structure-population/population-ages/
 - Used this to estimate the ratio of worker : retirees (Also accounting for the legal retirement age), and cross checked with https://www.insee.fr/fr/statistiques/2415121
 https://www.persee.fr/doc/pop_0032-4663_1989_num_44_6_3525
 - Average net alary of workers: https://www.insee.fr/fr/statistiques/6662214
