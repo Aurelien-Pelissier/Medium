@@ -7,7 +7,7 @@
 &nbsp;
 
 
-# French Economics
+# French adn EU Economics
 
 All the data used for the article is in the `Data` folder. 
 To reproduce the figures and the analysis, run `Data/Make_Figures.py`
@@ -40,7 +40,7 @@ https://www.persee.fr/doc/pop_0032-4663_1989_num_44_6_3525
 ### Wealth Tax (IGF, ISF, IFI)
 - Recettes fiscales: https://fr.wikipedia.org/wiki/Imp%C3%B4t_de_solidarit%C3%A9_sur_la_fortune
 
-### Additional Ressources:
+## Additional Ressources:
 - The Macro-History Database: https://www.macrohistory.net/database/
 - Wealth-Income Ratios in Rich Countries 1700-2010: https://gabriel-zucman.eu/files/PikettyZucman2014Databook.pdf
 
