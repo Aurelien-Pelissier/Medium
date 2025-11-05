@@ -19,6 +19,7 @@ To reproduce the figures and the analysis, run `Data/Make_Figures.py`
 - 2025 International Tax competitiveness Ranking: https://taxfoundation.org/research/all/global/2025-international-tax-competitiveness-index/
 - 2025 Global Innovation Index rankings: https://www.wipo.int/web-publications/global-innovation-index-2025/en/index.html
 - 2025 Millionaires migration: https://www.henleyglobal.com/publications/henley-private-wealth-migration-report-2025
+- Well-Being Index across OECD: https://www.oecd.org/en/data/tools/oecd-better-life-index.html
 
 ### French GDP and Debt
 - French GDP since 1950: https://fred.stlouisfed.org/data/NGDPXDCFRA
