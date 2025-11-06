@@ -20,6 +20,7 @@ To reproduce the figures and the analysis, run `Data/Make_Figures.py`
 - 2025 Global Innovation Index rankings: https://www.wipo.int/web-publications/global-innovation-index-2025/en/index.html
 - 2025 Millionaires migration: https://www.henleyglobal.com/publications/henley-private-wealth-migration-report-2025
 - Well-Being Index across OECD: https://www.oecd.org/en/data/tools/oecd-better-life-index.html
+- Sustainability of PAYG pension systems in the EU: https://www.oecd.org/en/publications/2025/04/oecd-economic-surveys-luxembourg-2025_3eb782b5.html
 
 ### French GDP and Debt
 - French GDP since 1950: https://fred.stlouisfed.org/data/NGDPXDCFRA
