@@ -22,6 +22,7 @@ To reproduce the figures and the analysis, run `Data/Make_Figures.py`
 - Well-Being Index across OECD: https://www.oecd.org/en/data/tools/oecd-better-life-index.html
 - Sustainability of PAYG pension systems in the EU: https://www.oecd.org/en/publications/2025/04/oecd-economic-surveys-luxembourg-2025_3eb782b5.html
 - Luxembourg Income Study Database: https://www.lisdatacenter.org/our-data/lis-database/
+- Social Elevator in the EU: https://www.oecd.org/en/publications/broken-elevator-how-to-promote-social-mobility_9789264301085-en.html
 
 ### French GDP and Debt
 - French GDP since 1950: https://fred.stlouisfed.org/data/NGDPXDCFRA
